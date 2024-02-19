@@ -101,7 +101,7 @@ export default function () {
     if (onNext != undefined && options?.isSkippedByUser) {
       onNext();
     }
-    // Check if component is mounted - for issue #130 (https://github.com/mohitk05/react-insta-stories/issues/130)
+    // Check if component is mounted - for issue #130 (https://github.com/Prajata22/nextjs-stories/issues/130)
     if (isMounted()) {
       if (loop) {
         updateNextStoryIdForLoop();

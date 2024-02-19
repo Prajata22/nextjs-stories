@@ -24,19 +24,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Prajata22/react-stories.git"
+    "url": "git+https://github.com/Prajata22/nextjs-stories.git"
   },
   "keywords": [
     "stories",
     "react",
     "instagram"
   ],
-  "author": "mohitk05",
+  "author": "Prajata22",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Prajata22/react-stories/issues"
+    "url": "https://github.com/Prajata22/nextjs-stories/issues"
   },
-  "homepage": "https://github.com/Prajata22/react-stories#readme",
+  "homepage": "https://github.com/Prajata22/nextjs-stories#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",

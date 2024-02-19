@@ -1,5 +1,5 @@
 {
-  "name": "react-insta-stories-example",
+  "name": "nextjs-stories-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -39,6 +39,6 @@
   "dependencies": {
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
-    "react-insta-stories": "file:.."
+    "nextjs-stories": "file:.."
   }
 }

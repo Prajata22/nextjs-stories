@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
 import "./App.css";
-const StoriesLazy = React.lazy(() => import("react-insta-stories"));
+const StoriesLazy = React.lazy(() => import("nextjs-stories"));
 const WithSeeMore = React.lazy(() =>
-  import("react-insta-stories").then((module) => ({
+  import("nextjs-stories").then((module) => ({
     default: module.WithSeeMore,
   }))
 );
@@ -15,16 +15,16 @@ function App() {
           <code>
             <a
               rel="noopener noreferrer"
-              href="https://www.npmjs.com/package/react-insta-stories"
+              href="https://www.npmjs.com/package/nextjs-stories"
               target="_blank"
             >
-              react-insta-stories
+              nextjs-stories
             </a>
             <br />
-            <a href="https://www.npmjs.com/package/react-insta-stories">
+            <a href="https://www.npmjs.com/package/nextjs-stories">
               <img
                 alt="NPM"
-                src="https://img.shields.io/npm/v/react-insta-stories.svg"
+                src="https://img.shields.io/npm/v/nextjs-stories.svg"
               />
             </a>
           </code>
@@ -42,11 +42,11 @@ function App() {
               width: "auto",
             }}
           >
-            npm i react-insta-stories
+            npm i nextjs-stories
           </span>
         </code>
         <p>
-          <a href="https://github.com/mohitk05/react-insta-stories#react-insta-stories">
+          <a href="https://github.com/Prajata22/nextjs-stories#nextjs-stories">
             Documentation →
           </a>
         </p>
@@ -54,10 +54,10 @@ function App() {
           Made with ♥ by{" "}
           <a
             rel="noopener noreferrer"
-            href="https://github.com/mohitk05/react-insta-stories"
+            href="https://github.com/Prajata22/nextjs-stories"
             target="_blank"
           >
-            @mohitk05
+            @Prajata22
           </a>
         </p>
         <div
@@ -83,7 +83,7 @@ function App() {
           </p>
           <p>
             1. React 18 progress bar bug fix (
-            <a href="https://github.com/mohitk05/react-insta-stories/issues/214">
+            <a href="https://github.com/Prajata22/nextjs-stories/issues/214">
               #214 and others
             </a>
             )
@@ -95,7 +95,7 @@ function App() {
           </p>
           <p>
             1. Server-side rendering bug fix (
-            <a href="https://github.com/mohitk05/react-insta-stories/issues/51">
+            <a href="https://github.com/Prajata22/nextjs-stories/issues/51">
               #51 and others
             </a>
             )
@@ -107,7 +107,7 @@ function App() {
           </p>
           <p>
             1. Bug fixes (
-            <a href="https://github.com/mohitk05/react-insta-stories/issues/130">
+            <a href="https://github.com/Prajata22/nextjs-stories/issues/130">
               #130
             </a>
             )
@@ -129,7 +129,7 @@ function App() {
           <p>4. Optional keyboard navigation</p>
           <p>5. Bug fixes</p>
           <p>
-            <a href="https://github.com/mohitk05/react-insta-stories/pull/80">
+            <a href="https://github.com/Prajata22/nextjs-stories/pull/80">
               Read more here →
             </a>
           </p>
@@ -316,8 +316,7 @@ const stories2 = [
     ),
   },
   {
-    url:
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
     type: "video",
   },
   {
