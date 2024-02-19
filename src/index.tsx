@@ -33,12 +33,13 @@ const ReactInstaStories = function (props: ReactInstaStoriesProps) {
         keyboardNavigation: props.keyboardNavigation,
         preventDefault: props.preventDefault,
         preloadCount: props.preloadCount,
+        alt: props.alt
     }
-    const [stories, setStories] = useState<{ stories: Story[] }>({ stories: generateStories(props.stories, renderers) });
+    const [stories, setStories] = useState<{ stories: Story[] }>({ stories: generateStories(props.stories, renderers, props.alt) });
 
 
     useEffect(() => {
-        setStories({ stories: generateStories(props.stories, renderers) });
+        setStories({ stories: generateStories(props.stories, renderers, props.alt) });
     }, [props.stories, props.renderers]);
 
     return <GlobalContext.Provider value={context}>
@@ -48,12 +49,13 @@ const ReactInstaStories = function (props: ReactInstaStoriesProps) {
     </GlobalContext.Provider>
 }
 
-const generateStories = (stories: Story[], renderers: { renderer: Renderer, tester: Tester }[]) => {
+const generateStories = (stories: Story[], renderers: { renderer: Renderer, tester: Tester }[], alt: string) => {
     return stories.map(s => {
         let story: Story = {};
 
         if (typeof s === 'string') {
             story.url = s;
+            story.alt = alt;
             story.type = 'image';
         } else if (typeof s === 'object') {
             story = Object.assign(story, s);

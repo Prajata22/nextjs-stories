@@ -28,6 +28,7 @@ export interface ReactInstaStoriesProps {
   keyboardNavigation?: boolean;
   preventDefault?: boolean;
   preloadCount?: number;
+  alt?: string;
 }
 
 export interface GlobalCtx {
@@ -57,6 +58,7 @@ export interface GlobalCtx {
   keyboardNavigation?: boolean;
   preventDefault?: boolean;
   preloadCount?: number;
+  alt?: string;
 }
 
 type NumberOrString = number | string;
