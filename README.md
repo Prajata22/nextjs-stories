@@ -3,8 +3,6 @@
 <h1 style="margin: 0" align="center">nextjs-stories</h1>
 <p align="center">A React component for Instagram like stories</p>
 
-<p align="center"><a href="https://Prajata22.github.io/nextjs-stories/">Homepage</a> • <a href="https://discord.gg/CBUC5c3">Discord</a></p>
-
 <div align="center"><a href="https://www.npmjs.com/package/nextjs-stories"><img alt="NPM" src="https://img.shields.io/npm/v/nextjs-stories.svg"></a>&nbsp;<a href="https://standardjs.com"><img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a>&nbsp;<a href="#backers"><img alt="Backers on Open Collective" src="https://opencollective.com/nextjs-stories/backers/badge.svg"></a>&nbsp;<a href="#sponsors"><img alt="Sponsors on Open Collective" src="https://opencollective.com/nextjs-stories/sponsors/badge.svg"></a></div>
 
 <br>
@@ -16,11 +14,6 @@
 ```bash
 npm install --save nextjs-stories
 ```
-
-## Demo
-
-The component responds to actions like tap on right side for next story, on left for previous and tap and hold for pause. Custom time duration for each story can be provided.
-See it in action here: https://Prajata22.github.io/nextjs-stories/
 
 ## Usage
 
@@ -383,25 +376,10 @@ This will start a hot-reloading setup with a live example.
 
 <!-- Testing -->
 
-## Thanks To
-
--   [@SamHambert](https://github.com/SamHerbert/SVG-Loaders) for the default spinner SVG
-
-## Websites using `nextjs-stories`
-
--   [Corsza](http://corsza.com/)
--   [TLDR Stories](https://www.producthunt.com/posts/tldr-stories-a0c16732-ba1e-4a40-b420-8582b9128bac)
--   [Dysperse](https://dysperse.com)
-
-Do you use `nextjs-stories` too? Raise a PR to include your site in this list!
-
 ## Contributors
 
 This project exists thanks to all the people who contribute.
 <a href="https://github.com/Prajata22/nextjs-stories/graphs/contributors"><img src="https://opencollective.com/nextjs-stories/contributors.svg?width=890&button=false" /></a>
-
-## Like the project? Support me on Ko-fi
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L2Q0BK)
 
 ## License
 
