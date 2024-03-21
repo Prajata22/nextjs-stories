@@ -56,9 +56,9 @@ module.exports = {
     globalObject: "this",
   },
   optimization: {
-    splitChunks: {
-      chunks: "all",
-    },
+    // splitChunks: {
+    //   chunks: "all",
+    // },
     minimize: false,
   },
   externals: {

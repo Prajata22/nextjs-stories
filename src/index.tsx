@@ -49,7 +49,7 @@ const ReactInstaStories = function (props: ReactInstaStoriesProps) {
     </GlobalContext.Provider>
 }
 
-const generateStories = (stories: Story[], renderers: { renderer: Renderer, tester: Tester }[], alt = "") => {
+const generateStories = (stories: Story[], renderers: { renderer: Renderer, tester: Tester }[], alt = "image") => {
     return stories.map(s => {
         let story: Story = {
             url: '',
