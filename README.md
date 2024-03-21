@@ -1,9 +1,9 @@
 ![Main image](https://i.imgur.com/OAL12S5.jpg)
 
-<h1 style="margin: 0" align="center">nextjs-stories</h1>
+<h1 style="margin: 0" align="center">next-stories</h1>
 <p align="center">A React component for Instagram like stories</p>
 
-<div align="center"><a href="https://www.npmjs.com/package/nextjs-stories"><img alt="NPM" src="https://img.shields.io/npm/v/nextjs-stories.svg"></a>&nbsp;<a href="https://standardjs.com"><img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a>&nbsp;<a href="#backers"><img alt="Backers on Open Collective" src="https://opencollective.com/nextjs-stories/backers/badge.svg"></a>&nbsp;<a href="#sponsors"><img alt="Sponsors on Open Collective" src="https://opencollective.com/nextjs-stories/sponsors/badge.svg"></a></div>
+<div align="center"><a href="https://www.npmjs.com/package/next-stories"><img alt="NPM" src="https://img.shields.io/npm/v/next-stories.svg"></a>&nbsp;<a href="https://standardjs.com"><img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a>&nbsp;<a href="#backers"><img alt="Backers on Open Collective" src="https://opencollective.com/next-stories/backers/badge.svg"></a>&nbsp;<a href="#sponsors"><img alt="Sponsors on Open Collective" src="https://opencollective.com/next-stories/sponsors/badge.svg"></a></div>
 
 <br>
 
@@ -12,7 +12,7 @@
 ## Install
 
 ```bash
-npm install --save nextjs-stories
+npm install --save next-stories
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ npm install --save nextjs-stories
 ```jsx
 import React, { Component } from 'react';
 
-import Stories from 'nextjs-stories';
+import Stories from 'next-stories';
 
 const App = () => {
  return (
@@ -142,7 +142,7 @@ This is a wrapper component which includes the UI and logic for displaying a 'Se
 It takes in two props - `story` and `action`.
 
 ```jsx
-const { WithSeeMore } from 'nextjs-stories';
+const { WithSeeMore } from 'next-stories';
 
 const CustomStoryContent = ({ story, action }) => {
  return <WithSeeMore story={story} action={action}>
@@ -157,7 +157,7 @@ const CustomStoryContent = ({ story, action }) => {
 You can also send custom 'See More' component for the collapsed state. While using `WithSeeMore`, pass in a `customCollapsed` prop with a value of your custom component. It will receive a `toggleMore` and `action` prop to handle clicks on the See More link.
 
 ```jsx
-const { WithSeeMore } from 'nextjs-stories';
+const { WithSeeMore } from 'next-stories';
 
 const customCollapsedComponent = ({ toggleMore, action }) =>
  <h2 onClick={() => {
@@ -198,7 +198,7 @@ const stories = [
 This named export can be used to include the header UI on any custom story. Simply wrap the component with this HOC and pass in some props.
 
 ```jsx
-const { WithHeader } from 'nextjs-stories';
+const { WithHeader } from 'next-stories';
 
 const CustomStoryContent = ({ story, config }) => {
  return <WithHeader story={story} globalHeader={config.header}>
@@ -220,7 +220,7 @@ If you wish to have a bare minimum setup and only need to show image stories, yo
 This will show all your images as stories.
 
 ```js
-import Stories from 'nextjs-stories';
+import Stories from 'next-stories';
 
 const stories = [
  'https://example.com/pic.jpg',
@@ -379,7 +379,7 @@ This will start a hot-reloading setup with a live example.
 ## Contributors
 
 This project exists thanks to all the people who contribute.
-<a href="https://github.com/Prajata22/nextjs-stories/graphs/contributors"><img src="https://opencollective.com/nextjs-stories/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/Prajata22/next-stories/graphs/contributors"><img src="https://opencollective.com/next-stories/contributors.svg?width=890&button=false" /></a>
 
 ## License
 
