@@ -1,8 +1,9 @@
 import * as React from "react";
 import Spinner from "../components/Spinner";
-import { Renderer, Tester } from "./../interfaces";
+import { Renderer, Tester } from "../interfaces";
 import WithHeader from "./wrappers/withHeader";
 import WithSeeMore from "./wrappers/withSeeMore";
+import Image from "next/legacy/image";
 
 export const renderer: Renderer = ({ story, action, isPaused, config }) => {
   const [loaded, setLoaded] = React.useState(false);
@@ -20,7 +21,7 @@ export const renderer: Renderer = ({ story, action, isPaused, config }) => {
     <WithHeader {...{ story, globalHeader: config.header }}>
       <WithSeeMore {...{ story, action }}>
         <div>
-          <img style={computedStyles} src={story.url} onLoad={imageLoaded} alt={story.alt}/>
+          <Image style={computedStyles} src={story.url} onLoad={imageLoaded} alt={story.alt}/>
           {!loaded && (
             <div
               style={{
