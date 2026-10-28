@@ -1,3 +1,5 @@
+> **Note:** This package is derived from [mohitk05/react-insta-stories](https://github.com/mohitk05/react-insta-stories) by its original authors, adapted and published on npm as `nextjs-stories`. Credit for the original work belongs to that project; see its licence.
+
 ![Main image](https://i.imgur.com/OAL12S5.jpg)
 
 <h1 style="margin: 0" align="center">nextjs-stories</h1>
